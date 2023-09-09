@@ -16,6 +16,6 @@ SharpCAD是一个用脚本创建三维对象的免费软件，像OpenSCAD一样�
     Box box = new Box(10);
     Scene.Add(box);
 
-![avatar](/images/create_a_box.png)
+![avatar](https://github.com/AfricChang/SharpCAD/tree/main/images/create_a_box.png)
 然后保存脚本到本地或导出为OFF/OBJ文件。
 
