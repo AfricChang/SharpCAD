@@ -13,7 +13,7 @@ You can write CSCAD scripts just like writing C# code in Visual Studio. For exam
 
     Box box = new Box(10);
     Scene.Add(box);
-![avatar](images/create_a_box.png)
+![avatar](/images/create_a_box.png)
 You can save the script to local path or export it as an OFF/OBJ file.
 
 
