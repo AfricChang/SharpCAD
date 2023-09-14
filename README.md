@@ -13,7 +13,9 @@ You can write CSCAD scripts just like writing C# code in Visual Studio. For exam
 
     Box box = new Box(10);
     Scene.Add(box);
+
 ![avatar](/images/create_a_box.png)
+
 You can save the script to local path or export it as an OFF/OBJ file.
 
 
@@ -42,6 +44,7 @@ Currently, only 8 examples are provided, and all examples are located in the 'ex
 ## Cube
     Box box = new Box(22,16,14);
     Scene.Add(box);
+
 ![avatar](/images/Cube.png)
 
 ## CSG
@@ -63,6 +66,7 @@ Currently, only 8 examples are provided, and all examples are located in the 'ex
     Scene.Add(union);
     Scene.Add(intersection);
     Scene.Add(difference);
+
 ![avatar](/images/CSG.png)
 
 ## Linear_Extrude
@@ -73,6 +77,7 @@ Currently, only 8 examples are provided, and all examples are located in the 'ex
     linear0.Color = Color.Red;
 
     Scene.Add(linear0);
+
 ![avatar](/images/linear_extrude.png)
 
 ## rotate_extrude
@@ -126,6 +131,7 @@ Currently, only 8 examples are provided, and all examples are located in the 'ex
         Scene.Add(re3);
         Scene.Add(re4);
     }
+
 ![avatar](/images/rotate_extrude.png)
 
 ## import_off_and_projection
@@ -283,6 +289,7 @@ Currently, only 8 examples are provided, and all examples are located in the 'ex
     TriangleIndex[] ids = new TriangleIndex[1]{new TriangleIndex(id0,id1,id2)};
     TriangleMesh tri = new TriangleMesh(pts,ids,null,null);
     Scene.Add(tri);
+
 ![avatar](/images/triangeMesh.png)
 
 # Done-and-TODO

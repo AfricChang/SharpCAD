@@ -17,6 +17,7 @@ SharpCAD是一个用脚本创建三维对象的免费软件，像OpenSCAD一样�
     Scene.Add(box);
 
 ![avatar](/images/create_a_box.png)
+
 然后保存脚本到本地或导出为OFF/OBJ文件。
 
 # 目录
@@ -43,6 +44,7 @@ SharpCAD是一个用脚本创建三维对象的免费软件，像OpenSCAD一样�
 ## Cube示例
     Box box = new Box(22,16,14);
     Scene.Add(box);
+
 ![avatar](/images/Cube.png)
 
 ## CSG示例
@@ -64,6 +66,7 @@ SharpCAD是一个用脚本创建三维对象的免费软件，像OpenSCAD一样�
     Scene.Add(union);
     Scene.Add(intersection);
     Scene.Add(difference);
+
 ![avatar](/images/CSG.png)
 
 ## Linear_Extrude
@@ -74,6 +77,7 @@ SharpCAD是一个用脚本创建三维对象的免费软件，像OpenSCAD一样�
     linear0.Color = Color.Red;
 
     Scene.Add(linear0);
+
 ![avatar](/images/linear_extrude.png)
 
 ## rotate_extrude
@@ -127,6 +131,7 @@ SharpCAD是一个用脚本创建三维对象的免费软件，像OpenSCAD一样�
         Scene.Add(re3);
         Scene.Add(re4);
     }
+
 ![avatar](/images/rotate_extrude.png)
 
 ## import_off_and_projection
@@ -284,6 +289,7 @@ SharpCAD是一个用脚本创建三维对象的免费软件，像OpenSCAD一样�
     TriangleIndex[] ids = new TriangleIndex[1]{new TriangleIndex(id0,id1,id2)};
     TriangleMesh tri = new TriangleMesh(pts,ids,null,null);
     Scene.Add(tri);
+
 ![avatar](/images/triangeMesh.png)
 
 # 已支持及后续计划
